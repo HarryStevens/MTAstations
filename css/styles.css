@@ -1,0 +1,46 @@
+@font-face {
+	font-family: Oswald;
+	src: url("Oswald-Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: Open Sans;
+	src: url("OpenSans-Regular.ttf") format("truetype");
+}
+html, body {
+	font-family: Open Sans, sans-serif;
+	width: 650px;
+	margin: 0 auto;
+	margin-top: 10px;
+	display: table;
+	font-size: 14px;
+}
+h1 {
+	font-family: Oswald;
+	font-size: 34px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+#intro {
+	margin-bottom: 10px;
+}
+#map {
+	width: 650px;
+	height: 675px;
+}
+#info {
+	height: 30px;
+	margin: 0 auto;
+	display: table;
+	font-size: 13px;
+}
+#key {
+	margin-top: 2px;
+}
+#source {
+	margin-top: 10px;
+	font-size: 13px;
+}
+.info-section {
+	float: left;
+	margin-right: 20px;
+}
