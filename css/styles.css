@@ -1,18 +1,17 @@
 @font-face {
 	font-family: Oswald;
-	src: url("Oswald-Regular.otf") format("opentype");
+	src: url("../Oswald-Regular.otf") format("opentype");
 }
 @font-face {
 	font-family: Open Sans;
-	src: url("OpenSans-Regular.ttf") format("truetype");
+	src: url("../OpenSans-Regular.ttf") format("truetype");
 }
 html, body {
 	font-family: Open Sans, sans-serif;
 	width: 650px;
 	margin: 0 auto;
-	margin-top: 10px;
 	display: table;
-	font-size: 14px;
+	font-size: 13px;
 }
 h1 {
 	font-family: Oswald;
@@ -31,14 +30,11 @@ h1 {
 	height: 30px;
 	margin: 0 auto;
 	display: table;
-	font-size: 13px;
-}
-#key {
-	margin-top: 2px;
+	font-size: 12px;
 }
 #source {
 	margin-top: 10px;
-	font-size: 13px;
+	font-size: 12px;
 }
 .info-section {
 	float: left;
